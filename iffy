@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "what is your number?"
+read var
+
+if [[ $var -gt 50 ]]; then
+	echo "$var is more than 50"
+elif [[ $var -eq 42 ]]; then
+	echo "$var is equal to 42"
+else
+	echo "$var is neither greater than 50, nor 42"
+fi
